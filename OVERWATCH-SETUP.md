@@ -28,6 +28,8 @@ Apple SiliconのMacで、外部プロジェクト [Recall](https://github.com/As
 
 外付けSSDを接続して `Scripts/Open-Overwatch.command` をFinderでダブルクリックすると、ゲーム用イメージをマウントしてRecallを開きます。この補助スクリプトは上記構成例のパスを使うため、別の保存先では冒頭の `GAME_IMAGE` と `GAME_VOLUME` を編集してください。
 
+GitHubから取得したスクリプトをFinderで起動する場合は、初回にターミナルで `chmod +x Scripts/Open-Overwatch.command` を実行して起動権限を付けます。ターミナルから `bash Scripts/Open-Overwatch.command` で起動することもできます。
+
 手動の場合は、SSD内の `OverwatchGames.sparsebundle` をダブルクリックしたあと、ApplicationsのRecallを開きます。その後RecallからBattle.netを開いてOverwatchを起動します。
 
 Battle.netとゲームを終了してからゲーム用ボリュームを取り出し、続いて外付けSSDを取り出します。
